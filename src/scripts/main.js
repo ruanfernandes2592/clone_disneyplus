@@ -57,7 +57,7 @@ function ocultaElementosDoHeader() { // header
     header.classList.add('header--is-hidden');
 }
 
-function exibeElementosDoHeader() {
+function exibeElementosDoHeader() { // header
     const header = document.querySelector('header');
     header.classList.remove('header--is-hidden');
 }
